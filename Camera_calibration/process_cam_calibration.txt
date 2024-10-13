@@ -1,0 +1,29 @@
+
+
+# Updating system
+
+sudo apt-get update
+sudo apt-get upgrade
+
+# Installing openCV and required libraries
+
+sudo apt-get install python3-opencv python3-numpy
+
+# Testing camera
+
+raspistill -o test.jpg
+
+# Capturing images
+
+run capture_images.py
+
+# Run calibration script
+
+calibration_script.py
+save the camera matrix (camera_mtx.npy) and distortion coefficients (dist_coeffs.npy)
+
+# Using caliibration data and getting undistorted images
+
+undistorted_images.py
+
+
